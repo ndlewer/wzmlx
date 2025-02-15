@@ -21,9 +21,6 @@ on:
       DATABASE_URL:
         description: "Database URL from MongoDB"
         required: true
-      RSS_CHAT:
-        description: "Chat ID for RSS"
-        required: false
       TELEGRAM_API:
         description: "Telegram API ID from https://my.telegram.org/"
         required: true
@@ -33,7 +30,9 @@ on:
       UPSTREAM_REPO:
         description: "Upstream Repo of your Fork or Main Repo"
         required: true
-      
+      RSS_CHAT:
+        description: "RSS"
+        required: false
 jobs:
   deploy:
     runs-on: ubuntu-latest
