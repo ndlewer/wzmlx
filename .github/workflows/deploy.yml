@@ -31,8 +31,8 @@ on:
         description: "Upstream Repo of your Fork or Main Repo"
         required: true
       RSS_CHAT:
-        description: "RSS"
-        required: false
+        description: "RSS Chat ID"
+        required: True
 jobs:
   deploy:
     runs-on: ubuntu-latest
