@@ -12,9 +12,6 @@ on:
       HEROKU_EMAIL:
         description: "Heroku email address"
         required: true
-      HEROKU_TEAM_NAME:
-        description: "Heroku Team Name"
-        required: false
       BOT_TOKEN:
         description: "Telegram bot token"
         required: true
